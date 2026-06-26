@@ -67,7 +67,7 @@ Please contact me with the next steps.`;
 
     // URL encode the message
     const encodedText = encodeURIComponent(formattedMessage);
-    const whatsappUrl = `https://wa.me/447000123456?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/447984600394?text=${encodedText}`;
 
     // Reset submission feedback banner after brief delay
     setTimeout(() => {
@@ -173,7 +173,7 @@ Please contact me with the next steps.`;
                       setPhoneNumber(e.target.value);
                       if (errors.phoneNumber) setErrors({ ...errors, phoneNumber: "" });
                     }}
-                    placeholder="e.g. +44 7000 123456"
+                    placeholder="e.g. +44 7984 600394"
                     className={`w-full bg-white border ${
                       errors.phoneNumber ? 'border-red-400 focus:ring-red-400/20' : 'border-brand-light focus:ring-brand-blue/20'
                     } rounded-xl py-3 pl-11 pr-4 text-sm text-brand-navy placeholder-brand-navy/35 focus:outline-none focus:ring-4 focus:border-brand-blue transition-all font-sans`}

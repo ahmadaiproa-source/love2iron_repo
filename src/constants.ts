@@ -1,10 +1,10 @@
 import { ServiceItem, PricingCategory, ReviewItem, FAQItem } from './types';
 
 export const CONTACT_INFO = {
-  phone: "+44 7000 123456",
+  phone: "+44 7984 600394",
   email: "hello@love2iron.co.uk",
-  address: "123 High Street, Hampton, London, TW12 1AB",
-  whatsappUrl: "https://wa.me/447000123456?text=Hi%20Love%202%20Iron%2C%20I%27m%20interested%20in%20your%20laundry%2C%20dry%20cleaning%20or%20ironing%20service.%20Can%20you%20share%20more%20details%3F"
+  address: "185 High St, Hampton Hill, Hampton TW12 1NL",
+  whatsappUrl: "https://wa.me/447984600394?text=Hi%20Love%202%20Iron%2C%20I%27m%20interested%20in%20your%20laundry%2C%20dry%20cleaning%2C%20ironing%20or%20garment%20care%20service.%20Can%20you%20share%20more%20details%3F"
 };
 
 export const SERVICES: ServiceItem[] = [
