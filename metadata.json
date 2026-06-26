@@ -1,0 +1,6 @@
+{
+  "name": "Love 2 Iron",
+  "description": "Premium Laundry, Dry Cleaning, Ironing & Garment Care Services in Hampton and surrounding London areas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
