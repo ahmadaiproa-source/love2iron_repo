@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Love 2 Iron | Laundry, Dry Cleaning &amp; Ironing in Hampton</title>
     <meta name="description" content="Love 2 Iron offers laundry, dry cleaning, ironing, wedding dress cleaning, curtain cleaning, repairs, alterations, and garment care services in Hampton and nearby London areas." />
+    <script>
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var currentFetch = originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return currentFetch;
+            },
+            set: function(val) {
+              currentFetch = val;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          console.warn("Could not patch window.fetch", e);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

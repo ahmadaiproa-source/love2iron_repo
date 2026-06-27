@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import QuickInfo from './components/QuickInfo';
 import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import Pricing from './components/Pricing';
@@ -28,9 +27,6 @@ export default function App() {
       <main className="flex-grow">
         {/* 2. Hero Section */}
         <Hero />
-
-        {/* 3. Quick Info Strip */}
-        <QuickInfo />
 
         {/* 4. About Us Section */}
         <AboutUs />

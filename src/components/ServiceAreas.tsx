@@ -30,10 +30,10 @@ export default function ServiceAreas() {
                 <span>✦</span> Coverage Map
               </div>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-brand-navy mb-6 font-sans leading-tight">
-                Serving Hampton and nearby London areas
+                Serving Hampton Hill, Hampton &amp; nearby South West London areas
               </h2>
               <p className="text-[16px] text-brand-navy/80 leading-relaxed font-sans mb-6">
-                Love 2 Iron is based in Hampton and supports customers across nearby areas with laundry, dry cleaning, ironing, curtain cleaning, wedding dress cleaning, and garment care services.
+                Love 2 Iron is based in Hampton Hill and supports customers across Hampton, TW12, and nearby South West London areas with laundry, dry cleaning, ironing, curtain cleaning, wedding dress cleaning, and garment care services.
               </p>
               
               {/* Address detail card */}
@@ -116,10 +116,10 @@ export default function ServiceAreas() {
                 </div>
                 <div className="mt-4 text-center">
                   <h4 className="text-lg font-bold tracking-tight font-sans text-white">
-                    Love 2 Iron — Hampton, London
+                    Love 2 Iron — Hampton Hill, Hampton TW12
                   </h4>
                   <p className="text-xs text-brand-gold font-medium mt-1 uppercase tracking-wider font-sans">
-                    HQ &amp; Core Dispatch Center
+                    Shop &amp; Local Service Point
                   </p>
                 </div>
               </div>
@@ -128,12 +128,12 @@ export default function ServiceAreas() {
               <div className="relative z-10 bg-white/10 backdrop-blur-md rounded-2xl p-4 border border-white/15">
                 <div className="grid grid-cols-2 gap-4 divide-x divide-white/10 text-center">
                   <div>
-                    <span className="block text-[11px] text-white/60 uppercase tracking-wider font-sans">Zone coverage</span>
-                    <span className="text-lg font-bold font-sans text-brand-gold">Hampton + 14 Areas</span>
+                    <span className="block text-[11px] text-white/60 uppercase tracking-wider font-sans">Zone Coverage</span>
+                    <span className="text-lg font-bold font-sans text-brand-gold">Hampton Hill + Nearby Areas</span>
                   </div>
                   <div>
                     <span className="block text-[11px] text-white/60 uppercase tracking-wider font-sans">Local Response</span>
-                    <span className="text-lg font-bold font-sans text-brand-gold">Same Day Available</span>
+                    <span className="text-lg font-bold font-sans text-brand-gold">Subject to Availability</span>
                   </div>
                 </div>
               </div>
