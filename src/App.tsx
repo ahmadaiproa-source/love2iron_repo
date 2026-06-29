@@ -67,6 +67,11 @@ export default function App() {
         href={CONTACT_INFO.whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => {
+          console.log("[Analytics] WhatsApp Link Clicked: Floating Badge", {
+            timestamp: new Date().toISOString()
+          });
+        }}
         className="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-40 w-12 h-12 md:w-14 md:h-14 bg-[#25D366] hover:bg-[#1EBE5D] hover:scale-105 active:scale-95 text-white rounded-full flex items-center justify-center shadow-lg hover:shadow-[#25D366]/30 border border-white/20 transition-all duration-300 group"
         aria-label="Contact us on WhatsApp for rapid assistance"
       >

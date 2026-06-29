@@ -74,6 +74,17 @@ Please contact me with the next steps.`;
       setIsSubmitted(false);
     }, 4000);
 
+    // Track WhatsApp submission event to monitor volume
+    console.log("[Analytics] WhatsApp Booking Form Submitted:", {
+      name: fullName.trim(),
+      phone: phoneNumber.trim(),
+      email: email.trim() || 'Not provided',
+      service: selectedService,
+      area: collectionArea.trim() || 'Not specified',
+      date: preferredDate || 'Not specified',
+      timestamp: new Date().toISOString()
+    });
+
     // Open WhatsApp in a new tab securely
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   };

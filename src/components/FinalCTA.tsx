@@ -54,6 +54,11 @@ export default function FinalCTA() {
               href={CONTACT_INFO.whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+                console.log("[Analytics] WhatsApp Link Clicked: Final CTA Banner", {
+                  timestamp: new Date().toISOString()
+                });
+              }}
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-full border border-white/20 backdrop-blur-sm transition-all cursor-pointer"
             >
               <PhoneCall size={18} className="text-brand-gold animate-pulse" />
